@@ -1,0 +1,21 @@
+{
+    "description": "Project Description",
+
+    "domain": "localplayer.dev",
+    "subdomain": "noyasan",
+
+    "owner": {
+        "repo": "https://github.com/smshxsnwr/infp",
+        "email": "smshxsnwr0@gmail.com"
+    },
+
+    "record": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["::1", "::2"],
+        "CNAME": "noyasan.com",
+        "MX": ["mx1.noyasan.com", "mx2.noyasan.com"],
+        "TXT": ["noyasan_verification=1234567890"]
+    },
+
+    "proxied": true
+}
